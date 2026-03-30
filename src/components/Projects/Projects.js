@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import emotion from "../../Assets/Projects/figmaBG.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -85,6 +85,16 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Figma Screens"
+              description=""
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://www.figma.com/design/DoTO8WYue3X8WCeu9svYkK/Styles---Colors?node-id=0-1&p=f&t=kk9lnDA7eEmnjI1j-0"      
             />
           </Col>
         </Row>
