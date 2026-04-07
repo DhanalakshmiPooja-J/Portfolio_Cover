@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Weather App"
+              description="Weather Forecast Application built with React.js, Node.js, and MongoDB Atlas, featuring real-time weather updates, location-based forecasts, and dynamic data visualization with support for temperature trends and weather condition insights."
+              ghLink="https://github.com/DhanalakshmiPooja-J/WeatherApp"
+              demoLink="https://weather-app-pied-eight-54.vercel.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Employee Management App"
+              description="Employee Management App built with React.js, Node.js, and MongoDB Atlas, featuring efficient employee data handling, role-based access control, real-time updates, and support for CRUD operations, performance tracking, and organizational insights."
+              ghLink="https://github.com/DhanalakshmiPooja-J/EmployeeManagementApp"
+              demoLink="https://employee-management-app-hti2.vercel.app"
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="E-commerce App"
+              description="E-commerce Web Application for clay items and bakery products built with React.js and Python, featuring seamless product browsing, secure user authentication, and dynamic cart management with real-time order updates. Includes an intuitive admin panel for product management, order tracking, and inventory control, along with integrated payment support and responsive UI for an enhanced shopping experience."
+              ghLink="https://github.com/DhanalakshmiPooja-J/Artisan_Bakery"
+              // demoLink="https://blogs.soumya-jit.tech/"     
             />
           </Col>
           <Col md={4} className="project-card">
@@ -92,9 +91,10 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Figma Screens"
-              description=""
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://www.figma.com/design/DoTO8WYue3X8WCeu9svYkK/Styles---Colors?node-id=0-1&p=f&t=kk9lnDA7eEmnjI1j-0"      
+              description="Saree Collection UI/UX Design created in Figma, featuring an elegant interface for browsing traditional and modern sarees with intuitive navigation and rich product displays.
+              Designed for a seamless shopping experience with responsive layouts, detailed product views, and aesthetically pleasing visuals inspired by ethnic fashion."
+             
+              demoLink="https://www.figma.com/design/DoTO8WYue3X8WCeu9svYkK/Styles---Colors?node-id=54-2&p=f&t=o1nq5VkWCUY44nDx-0"      
             />
           </Col>
         </Row>
