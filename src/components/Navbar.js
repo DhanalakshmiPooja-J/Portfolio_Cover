@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { PiCertificateLight } from "react-icons/pi";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -79,6 +80,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Certificates"
+                onClick={() => updateExpanded(false)}
+              >
+                <PiCertificateLight
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certificates
               </Nav.Link>
             </Nav.Item>
 
