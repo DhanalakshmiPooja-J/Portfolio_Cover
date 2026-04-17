@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weather from "../../Assets/Projects/weatherBG.png";
 import art from "../../Assets/Projects/bakery.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import figma from "../../Assets/Projects/figmaBG.png";
 import emp from "../../Assets/Projects/employee.png";
 
