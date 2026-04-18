@@ -9,8 +9,6 @@ import Shopify from "../../Assets/certificate/shopify.png";
 import GenerativeAI from "../../Assets/certificate/generativeAI.png";
 import Prompt from "../../Assets/certificate/chatgpt.png";
 
-
-
 function Certificates() {
   return (
     <Container fluid className="project-section">
@@ -34,7 +32,6 @@ function Certificates() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Prompt}
-              isBlog={false}
               title="Prompt Engineering "
               demoLink="https://coursera.org/share/a8f9ab4e37828610fcea4406221c7165"
             />
@@ -43,7 +40,6 @@ function Certificates() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={GenerativeAI}
-              isBlog={false}
               title="Generative AI"
               demoLink="https://coursera.org/share/79abdca085a0125bf3a261907a146ade"
             />
@@ -52,7 +48,6 @@ function Certificates() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Canva}
-              isBlog={false}
               title="Canva For Social Media"         
               demoLink="https://coursera.org/share/e42543d8ef1f456cdd4827654d795794"      
             />
@@ -61,7 +56,6 @@ function Certificates() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CanvaVideo}
-              isBlog={false}
               title="Website Video with Canva"            
               demoLink="https://coursera.org/share/ccbe3a3675cdb9a0ba030d4db6322da4"      
             />
@@ -70,7 +64,6 @@ function Certificates() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Shopify}
-              isBlog={false}
               title="E-Commerce with Shopify"           
               demoLink="https://coursera.org/share/15f5b774ddae84f378b625371cfa1242"
             />

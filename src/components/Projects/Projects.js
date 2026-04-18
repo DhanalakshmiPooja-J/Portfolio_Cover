@@ -22,8 +22,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={weather}
-              isBlog={false}
-              isDemo={true}
+              isBlog={true}
+              isDemo={false}
               title="Weather App"
               description="Weather Forecast Application built with React.js, Node.js, and MongoDB Atlas, featuring real-time weather updates, location-based forecasts, and dynamic data visualization with support for temperature trends and weather condition insights."
               ghLink="https://github.com/DhanalakshmiPooja-J/WeatherApp"
@@ -34,8 +34,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emp}
-              isBlog={false}
-              isDemo={true}
+              isBlog={true}
+              isDemo={false}
               title="Employee Management App"
               description="Employee Management App built with React.js, Node.js, and MongoDB Atlas, featuring efficient employee data handling, role-based access control, real-time updates, and support for CRUD operations, performance tracking, and organizational insights."
               ghLink="https://github.com/DhanalakshmiPooja-J/EmployeeManagementApp"
@@ -47,7 +47,7 @@ function Projects() {
             <ProjectCard
               imgPath={art}
               isBlog={false}
-              isDemo={false}
+              isDemo={true}
               title="E-commerce App"
               description="E-commerce Web Application for clay items and bakery products built with React.js and Python, featuring seamless product browsing, secure user authentication, and dynamic cart management with real-time order updates. Includes admin panel for product management, order tracking, along with integrated payment support and responsive UI for an enhanced shopping experience."
               ghLink="https://github.com/DhanalakshmiPooja-J/Artisan_Bakery"
